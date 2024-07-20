@@ -1,0 +1,3 @@
+accessWidener	v1	named
+
+accessible method net/minecraft/component/DataComponentTypes register (Ljava/lang/String;Ljava/util/function/UnaryOperator;)Lnet/minecraft/component/ComponentType;

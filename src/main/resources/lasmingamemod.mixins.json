@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lazyalienserver.lasmingamemod.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "AddedDamageTagToNBT.DataComponentTypesMixin",
+    "ServerWorldMixin",
+    "AddedDamageTagToNBT.SnowballEntityMixin",
+    "AddedDamageTagToNBT.SnowballItemMixin"
+  ]
+}

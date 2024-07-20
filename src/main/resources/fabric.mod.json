@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "lasmingamemod",
+  "version": "${version}",
+  "name": "LasMinGameMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/a/LasMinGameMod"
+  },
+  "license": "MIT",
+  "icon": "assets/lasmingamemod/icon.jpg",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "lazyalienserver.lasmingamemod.LasMinGameMod"
+    ]
+  },
+  "mixins": [
+    "lasmingamemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },"custom": {
+  "loom:injected_interfaces": {
+    "net/minecraft/class_1680": ["lazyalienserver/lasmingamemod/MixinInterface/SnowballEntitySetHitDamage"]
+    }
+  }
+}
