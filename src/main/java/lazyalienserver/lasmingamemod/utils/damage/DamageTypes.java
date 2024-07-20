@@ -8,6 +8,6 @@ import net.minecraft.util.Identifier;
 
 public interface DamageTypes {
 
-    public static final RegistryKey<DamageType> SnowBallHit = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(LasMinGameMod.MOD_ID,"snowball_hit"));
+    RegistryKey<DamageType> SnowBallHit = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(LasMinGameMod.MOD_ID,"snowball_hit"));
 
 }

@@ -1,3 +1,4 @@
 accessWidener	v1	named
 
 accessible method net/minecraft/component/DataComponentTypes register (Ljava/lang/String;Ljava/util/function/UnaryOperator;)Lnet/minecraft/component/ComponentType;
+accessible method net/minecraft/entity/projectile/thrown/SnowballEntity getDefaultItem ()Lnet/minecraft/item/Item;

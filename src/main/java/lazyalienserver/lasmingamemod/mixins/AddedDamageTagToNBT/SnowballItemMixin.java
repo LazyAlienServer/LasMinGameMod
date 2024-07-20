@@ -19,8 +19,6 @@ import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 @Mixin(SnowballItem.class)
 public class SnowballItemMixin {
 
-    //private static final MapCodec<EntityType<?>> ENTITY_TYPE_MAP_CODEC = Registries.ENTITY_TYPE.getCodec().fieldOf("hitDamage");
-
     @Inject(at= @At(value = "INVOKE", target = "Lnet/minecraft/world/World;spawnEntity(Lnet/minecraft/entity/Entity;)Z"),method = "use",locals = LocalCapture.CAPTURE_FAILHARD)
     private void use(World world, PlayerEntity user, Hand hand, CallbackInfoReturnable<TypedActionResult<ItemStack>> cir, ItemStack itemStack, SnowballEntity snowballEntity){
         NbtComponent nbtComponent = NBTHelper.getNbt(itemStack, DataComponentTypes.CUSTOM_DATA);

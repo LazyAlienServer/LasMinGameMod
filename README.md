@@ -13,6 +13,8 @@
 > 类型：*float*
 > - 获取指令:  
 > */give @s minecraft:snowball[minecraft:custom_data={hitDamage:50}]*
+> - 召唤指令:  
+> */summon minecraft:snowball ~ ~ ~ {"hitDamage":50}*
 > - 伤害类型:snowball_hit
 >   - id: snowball_hit 
 >   - 伤害不随难度提升

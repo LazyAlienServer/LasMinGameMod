@@ -9,9 +9,10 @@
     "defaultRequire": 1
   },
   "mixins": [
-    "AddedDamageTagToNBT.DataComponentTypesMixin",
     "ServerWorldMixin",
+    "AddedDamageTagToNBT.DataComponentTypesMixin",
     "AddedDamageTagToNBT.SnowballEntityMixin",
-    "AddedDamageTagToNBT.SnowballItemMixin"
+    "AddedDamageTagToNBT.SnowballItemMixin",
+    "AddedDamageTagToNBT.ThrownItemEntityMixin"
   ]
 }
