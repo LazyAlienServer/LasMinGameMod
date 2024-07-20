@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class LasMinGameMod implements ModInitializer {
     public static final String MOD_ID="lasmingamemod";
     public static final String MOD_NAME="LasMinGameMod";
-    public static final String MOD_VERSION="1.0.0";
+    public static final String MOD_VERSION="1.0.1";
     public static final Logger logger = LoggerFactory.getLogger(MOD_NAME);
     public static MinecraftServer Server;
     @Override
