@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 import java.util.function.UnaryOperator;
 
-public class NBTHelper {
+public class ItemStackComponentHelper {
     public static boolean hasNbt(ItemStack itemStack, String keyName, ComponentType<?> type) {
         return !itemStack.isEmpty() && itemStack.getComponents() != null && itemStack.getComponents().contains(type);
     }
