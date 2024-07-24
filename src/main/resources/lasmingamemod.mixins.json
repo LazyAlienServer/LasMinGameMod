@@ -13,6 +13,7 @@
     "AddedDamageTagToNBT.DataComponentTypesMixin",
     "AddedDamageTagToNBT.SnowballEntityMixin",
     "AddedDamageTagToNBT.SnowballItemMixin",
-    "AddedDamageTagToNBT.ThrownItemEntityMixin"
+    "AddedDamageTagToNBT.ThrownItemEntityMixin",
+    "ChangeEnderPearlCD.EnderPearlItemMixin"
   ]
 }
