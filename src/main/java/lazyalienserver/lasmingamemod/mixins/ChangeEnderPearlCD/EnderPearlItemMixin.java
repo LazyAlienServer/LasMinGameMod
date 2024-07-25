@@ -18,15 +18,17 @@ import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(EnderPearlItem.class)
 public class EnderPearlItemMixin {
+
+    private final EnderPearlItem enderPearlItem = (EnderPearlItem) (Object)this;//定义this
+
     //用Overwrite写的矢山,不过能跑,不动了(
     /**
-     * @author
-     * @reason
+     * @author DIOJOIO
+     * @reason 修改冷却时间
      */
     @Overwrite
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         int CoolDownTick=20;//默认20tick
-        EnderPearlItem enderPearlItem = (EnderPearlItem) (Object)this;//定义this
         ItemStack itemStack = user.getStackInHand(hand);
         NbtComponent nbtComponent = ItemStackComponentHelper.getNbt(itemStack, DataComponentTypes.CUSTOM_DATA);//获得持有物品的custom_data内容
         if (nbtComponent!=null&&nbtComponent.contains("CoolDownTick")){//判断是否不为null和是由有CoolDownTick标签,这俩别互换位置,危险
