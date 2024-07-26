@@ -22,7 +22,7 @@
 > - 死亡信息 *(ps:该信息，客户端需增加材质包)* :
 >   - zh-cn: %1$s被%2$s的雪球打倒了，真是太菜了！
 >   - en-us: %1$s was knocked down by %2$s's snowball. What a loser!
-
+> * **注意:投掷物的受击后伤害免疫被取消**
 ## 2.修改末影珍珠发射冷却时长
 > **效果:**
 > 当添加该标签后，会根据itemStack中custom_data组件中CoolDownTick中数值给予对应的发射冷却时长
