@@ -33,6 +33,6 @@
 > */give @s minecraft:ender_pearl[minecraft:custom_data={CoolDownTick:20}]*  
 > */give @s minecraft:ender_pearl[minecraft:custom_data={CoolDownSecond:1}]*
 > - **注意事项**   
-> *1.CoolDownTick所对应的数值为游戏刻,**1s=20GameTick**(即为gt或t),切勿填入秒数,否则会大幅减小冷却时长*
+> *1.CoolDownTick所对应的数值为游戏刻,**1s=20GameTick**(即为gt或t),切勿填入秒数,否则会大幅减小冷却时长*  
 > *2.CoolDownSecond仅支持对应整数数值,若要精确控制请使用CoolDownTick标签*  
 > *3.CoolDownTick和CoolDownSecond不可同时使用,若同时使用会导致末影珍珠实际冷却时长为CoolDownTick对应的数值*
