@@ -3,7 +3,9 @@
 > LAS服务器除夕小游戏服务端拓展模组  
 > **modName**: LasMinGameMod  
 > **modId**: lasmingamemod  
-> **namespace**: lasmingamemod
+> **namespace**: lasmingamemod  
+> **FabricLoader Version: ≥0.15.11**  
+> **Minecraft Version: 1.21**
 
 ## 1.增加雪球攻击标签
 > **效果:**  
