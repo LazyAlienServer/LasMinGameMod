@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "lasmingamemod",
   "version": "${version}",
+  "minecraft_version": "${minecraft_version}",
   "name": "LasMinGameMod",
   "description": "",
   "authors": [],
